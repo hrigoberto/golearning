@@ -11,6 +11,9 @@ func main() {
 		"white": "#ffffff",
 	}
 
+	colors["yellow"] = "#ffff00"
+	delete(colors, "yellow")
+
 	printMap(colors)
 }
 
